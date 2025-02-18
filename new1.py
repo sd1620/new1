@@ -33,12 +33,12 @@ st.markdown("### ⏳ Countdown to Our 1-Year Anniversary")
 st.write(f"Only **{days_left}** days left until our 1-year anniversary on **23rd March 2025**! 🎉")
 
 # Memories Section
-# st.markdown("### 📸 Our Beautiful Memories")
-# images = ["uss1.png", "uss2.jpg"]  # Replace with your images
-# cols = st.columns(len(images))
-# for i, img in enumerate(images):
-#     with cols[i]:
-#         st.image(img, caption=f"Dekh how beautiful we look with each other <3", use_container_width=True)
+st.markdown("### 📸 Our Beautiful Memories")
+images = ["uss1.png", "uss2.jpg"]  # Replace with your images
+cols = st.columns(len(images))
+for i, img in enumerate(images):
+    with cols[i]:
+        st.image(img, caption=f"Dekh how beautiful we look with each other <3", use_container_width=True)
 
 # Interactive Love Quiz
 st.markdown("### 💕 How Well Do You Know Our Love Story?")
